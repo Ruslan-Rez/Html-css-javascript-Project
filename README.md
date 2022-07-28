@@ -1,2 +1,2 @@
 # Html-css-javascript-Project
-An example of a website i created for a company that sells lightning fixtures
+This is a website that i created for a computer generated request. The company sells lightning fixtures. The project uses html, css and java script
