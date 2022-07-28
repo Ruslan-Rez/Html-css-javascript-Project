@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About us | Bold Surf Emporium</title>
+    <link rel="icon" href="Img/light-bulb.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Anton&family=Cormorant+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bse-style.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 class="bse-name"> <a href="landing.html"><img src="Img/kindpng_197408.png"> Bold Surf Emporium</a></h1>
+    <nav class="nav main-nav" >
+        <ul>
+            <li><a href="home.html">Home</a> </li>
+            <li class="selected"><a href="about.html" >About</a> </li>
+            <li><a href="products.html">Products</a> </li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="abt-page">
+    <div class="pics">
+        <div class="abt-pic">
+            <input type="radio" name="radio-btn" id="ph1">
+            <input type="radio" name="radio-btn" id="ph2">
+            <input type="radio" name="radio-btn" id="ph3">
+            <input type="radio" name="radio-btn" id="ph4">
+            <div class="ph first">
+                <img src="Img/ph1.jpg" alt="">
+            </div>
+            <div class="ph">
+                <img src="Img/ph2.jpg" alt="">
+            </div>
+            <div class="ph">
+                <img src="Img/ph3.jpg" alt="">
+            </div>
+            <div class="ph">
+                <img src="Img/ph4.jpg" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+            <div class="navigation-manual">
+                <label for="ph1" class="manual-btn"></label>
+                <label for="ph2" class="manual-btn"></label>
+                <label for="ph3" class="manual-btn"></label>
+                <label for="ph4" class="manual-btn"></label>
+            </div>
+        </div></section>
+    <section class="abt-text">
+        <h1>About Us</h1>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis feugiat nibh. Donec faucibus ut quam vel semper. Vivamus convallis mollis diam sit amet interdum. Duis condimentum lobortis porta. Proin convallis dictum libero, in tincidunt ipsum faucibus eget. Aenean risus metus, varius efficitur elit et, dictum dapibus ipsum. In fringilla nunc in enim congue aliquam. Etiam lobortis rutrum turpis, non semper magna tincidunt non.</span>
+        </section>
+<footer class="main-footer">
+    <div class="main-footer-container">
+        <ul class="nav footer-nav">
+            <li><a href="https://www.instagram.com/" target="_blank">
+                <img src="Img/insta.png">
+            </a>
+
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="Img/fb.png">
+                </a>
+            </li>
+            <li> <a href="https://www.tiktok.com/" target="_blank">
+                <img src="Img/White%20TikTok%20Logo.png">
+            </a>
+
+            </li>
+        </ul></div>
+
+</footer>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('ph' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 4000);
+</script>
+</body>
+</html>
